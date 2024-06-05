@@ -22,36 +22,11 @@ By completing this project, you will be able to:
 ### 1. Data Acquisition
 In this step, you will learn how to load a dataset into a Jupyter Notebook. The dataset for this project is an online CSV file. The Pandas library will be used to read the dataset into a DataFrame.
 
-```python
-import pandas as pd
-import numpy as np
-
-# Load the dataset
-path = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-SkillsNetwork/labs/Data%20files/auto.csv"
-df = pd.read_csv(path, header=None)
-```
-
 ### 2. Data Cleaning
 This section covers cleaning the dataset, handling missing values, and ensuring the data is in a suitable format for analysis.
 
 ### 3. Data Analysis
 In this step, you will perform various analyses to gain insights from the dataset. This includes descriptive statistics, exploring data distributions, and identifying relationships between different variables.
-
-## Usage
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/automobile-data-analysis.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd automobile-data-analysis
-    ```
-3. Install the required dependencies (if any).
-4. Open the Jupyter Notebook:
-    ```bash
-    jupyter notebook Data\ Analysis\ steps\ in\ IBM.ipynb
-    ```
 
 ## Requirements
 
